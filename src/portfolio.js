@@ -368,7 +368,7 @@ const experience = {
         {
           title: "Frontend Developer",
           company: "iBanking",
-          company_url: "https://ibanking.ar/",
+          company_url: "https://ibanking.netlify.app",
           logo_path: "ibk.png",
           duration: "Jan 2021 - Present",
           location: "Work From Home",
