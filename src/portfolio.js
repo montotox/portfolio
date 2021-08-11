@@ -26,7 +26,7 @@ const socialMediaLinks = {
   github: "https://github.com/montotox",
   linkedin: "https://www.linkedin.com/in/ricardo-jose-coronel/",
   gmail: "montotox@gmail.com",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
+  facebook: "https://www.facebook.com/ricardo.jose.coronel/",
   instagram: "https://www.instagram.com/scarto_scarletto/",
 };
 
@@ -379,7 +379,7 @@ const experience = {
         {
           title: "Full Stack Developer",
           company: "Freelancer",
-          company_url: "https://valora-infotech.business.site/",
+          company_url: "https://montotox.com/",
           logo_path: "montotox.png",
           duration: "Oct 2020 - Present",
           location: "Work From Home",
