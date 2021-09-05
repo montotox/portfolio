@@ -50,13 +50,29 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
+              <a
+                {...styles}
+                className="general-btn"
+                href={greeting.resumeLink}
+                target="_blank"
+              >
+                Download Resume
               </a>
+              {/* <br />
+              <br />
+              <br />
+              <a
+                {...styles}
+                className="general-btn"
+                href={greeting.resumeLink2}
+                target="_blank"
+              >
+                PM-PO-UX/IU Resume
+              </a> */}
             </div>
           </div>
         </Fade>
-        {/* <Fade bottom duration={1000} distance="40px">
+        <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
             <div className="blog-heading-text-div">
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
@@ -66,19 +82,31 @@ function Contact(props) {
                 className="blog-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {blogSection["subtitle"]}
+                {/* {blogSection["subtitle"]} */}
+                In 2016 I founded 2 startups: mobility and fintech, and the
+                process that most caught my attention was user behavior when
+                interacting with our products. Since that moment I have been
+                training in UX and, at the same time, putting my knowledge into
+                practice in each project that I undertook. In that way I
+                achieved the following milestones: • I improved the user
+                experience of a critical process of fintech, managing to
+                increase the conversion rate by 34%. • I created two tools to
+                increase a payment checkout with different clients, speeding up
+                the integration process to only 10 minutes of development. • I
+                developed and designed a self-contracting system for an internet
+                provider company, doubling its monthly sales.
               </p>
-              <div className="blogsite-btn-div">
+              {/* <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
                   My Twitter Profile
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
             </div>
           </div>
-        </Fade> */}
+        </Fade>
       </div>
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>

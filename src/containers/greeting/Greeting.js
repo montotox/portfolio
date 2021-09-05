@@ -24,7 +24,12 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}</h1>
+              <h1 className="greeting-text">
+                {greeting.title}
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋
+                </span>
+              </h1>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
@@ -48,6 +53,11 @@ export default function Greeting(props) {
                 </button>
               </div>
             </div>
+            <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
           </div>
           <div className="greeting-image-div">
             <FeelingProud theme={theme} />

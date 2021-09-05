@@ -9,15 +9,17 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Hello",
   title2: "Montotox",
   logo_name: "Montoto.(x)",
   nickname: "montotox",
   full_name: "Ricardo Coronel",
   subTitle:
-    "Full Stack Developer & UX/UI Designer, self-taught & serial entrepreneur 🔥. Always learning 📚.",
+    "UX/UI Designer, Frontend Developer & self-taught 🤓. Always learning 📚.",
   resumeLink:
-    "https://docs.google.com/document/d/1g7EckSkFri5P2JNO0J0MVX1_3TWsFLPCZh1zLXxYZuY/edit?usp=sharing",
+    "https://drive.google.com/file/d/1p0SJdcvUX35iQo-93-hNh-8MfK6DQT9P/view?usp=sharing",
+  resumeLink2:
+    "https://drive.google.com/file/d/1L24Ch1_cXx8jtbw6DT62LXJS-gTK1hzg/view?usp=sharing",
   mail: "mailto:montotox@gmail.com",
 };
 
@@ -33,13 +35,72 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "UX/UI Design & Researcher",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Create user stories, personas, storyboards, prototypes and wireframes",
+        "⚡ Problem-solving, design thinking",
+        "⚡ Creative and analytical approach",
+        "⚡ Business know-how: Understanding of business metrics and the ability to translate company goals and objectives into digital experiences",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#C4C4C4",
+          },
+        },
+        {
+          skillName: "Gimp",
+          fontAwesomeClassname: "simple-icons:gimp",
+          style: {
+            color: "#5C5543",
+          },
+        },
+        {
+          skillName: "Miro",
+          fontAwesomeClassname: "simple-icons:miro",
+          style: {
+            color: "#050038",
+          },
+        },
+        {
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#31A8FF",
+          },
+        },
+        {
+          skillName: "Google Analytics",
+          fontAwesomeClassname: "simple-icons:googleanalytics",
+          style: {
+            color: "#E37400",
+          },
+        },
+        {
+          skillName: "Hotjar",
+          fontAwesomeClassname: "simple-icons:hotjar",
+          style: {
+            color: "#FD3A5C",
+          },
+        },
+      ],
+    },
+    {
+      title: "Frontend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and PWA",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Designing UX/UI in Figma",
-        "⚡ Creating application backend in Node & Express",
+        "⚡ Building responsive website using ReactJS",
+        "⚡ Using Material-UI & SASS",
         "⚡ Lover of GraphQL",
         "⚡ Integration services such as Firebase/ AWS",
       ],
@@ -59,18 +120,25 @@ const skills = {
           },
         },
         {
+          skillName: "SASS",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "Material-UI",
+          fontAwesomeClassname: "simple-icons:material-ui",
+          style: {
+            color: "#0081CB",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
           },
         },
         {
@@ -116,20 +184,6 @@ const skills = {
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
           skillName: "Gatsby",
           fontAwesomeClassname: "simple-icons:gatsby",
           style: {
@@ -151,31 +205,10 @@ const skills = {
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
           skillName: "jQuery",
           fontAwesomeClassname: "simple-icons:jquery",
           style: {
             color: "#0865A6",
-          },
-        },
-        {
-          skillName: "XAMPP",
-          fontAwesomeClassname: "simple-icons:xampp",
-          style: {
-            color: "#FB7A24",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
           },
         },
         {
@@ -185,107 +218,92 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#C4C4C4",
-          },
-        },
-        {
-          skillName: "Gimp",
-          fontAwesomeClassname: "simple-icons:gimp",
-          style: {
-            color: "#5C5543",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
       ],
     },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "Cloud Infra-Architecture",
+    //   fileName: "CloudInfraImg",
+    //   skills: [
+    //     "⚡ Experience working on multiple cloud platforms",
+    //     "⚡ Experience hosting and managing websites",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "AWS",
+    //       fontAwesomeClassname: "simple-icons:amazonaws",
+    //       style: {
+    //         color: "#FF9900",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Netlify",
+    //       fontAwesomeClassname: "simple-icons:netlify",
+    //       style: {
+    //         color: "#38AFBB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Heroku",
+    //       fontAwesomeClassname: "simple-icons:heroku",
+    //       style: {
+    //         color: "#6863A6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Firebase",
+    //       fontAwesomeClassname: "simple-icons:firebase",
+    //       style: {
+    //         color: "#FFCA28",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PostgreSQL",
+    //       fontAwesomeClassname: "simple-icons:postgresql",
+    //       style: {
+    //         color: "#336791",
+    //       },
+    //     },
+    //     {
+    //       skillName: "MongoDB",
+    //       fontAwesomeClassname: "simple-icons:mongodb",
+    //       style: {
+    //         color: "#47A248",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Docker",
+    //       fontAwesomeClassname: "simple-icons:docker",
+    //       style: {
+    //         color: "#1488C6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Kubernetes",
+    //       fontAwesomeClassname: "simple-icons:kubernetes",
+    //       style: {
+    //         color: "#326CE5",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
 const degrees = {
   degrees: [
+    {
+      title: "UX Designer",
+      subtitle: "UX/UI Designer & UX Researcher",
+      logo_path: "google.png",
+      alt_name: "Google Academy - Coursera",
+      duration: "2020 - 2021",
+      descriptions: [
+        "⚡ Developing personas, user stories, and user journey maps.",
+        "⚡ Conducting usability studies.",
+        "⚡ Creating wireframes and prototypes. Testing and iterating on designs.",
+      ],
+      website_link: "https://grow.google/uxdesign/",
+    },
     {
       title: "Fullstack Developer",
       subtitle: "Java",
@@ -366,14 +384,14 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Frontend Developer",
+          title: "UX/UI Designer",
           company: "iBanking",
           company_url: "https://ibanking.netlify.app",
           logo_path: "ibk.png",
-          duration: "Jan 2021 - Present",
-          location: "Work From Home",
+          duration: "Jan 2020 - Aug 2021",
+          location: "Work from Home",
           description:
-            "Frontend developer ReactJS and UX/UI Designer for fintech PWA.",
+            "Considering the human-computer interaction (HCI) element of a design. UX/UI Designer for fintech PWA. Frontend ReactJS developer. Running user testing. Defining interaction models, user task flows, and UI specifications. Communicating scenarios, end-to-end experiences, interaction models, and screen designs to other people working on a product. Developing and maintaining design wireframes and specifications",
           color: "#000",
         },
         {
@@ -382,9 +400,9 @@ const experience = {
           company_url: "https://montotox.com/",
           logo_path: "montotox.png",
           duration: "Oct 2020 - Present",
-          location: "Work From Home",
+          location: "Barcelona, Spain",
           description:
-            "Work as freelancer in fullstack pojects. The primary stack: NodeJS, Express, ReactJS, GraphQL, MongoDB.",
+            "Work as freelancer in fullstack projects. The primary stack: NodeJS, Express, ReactJS, GraphQL, MongoDB.",
           color: "#000",
         },
         {
@@ -392,8 +410,8 @@ const experience = {
           company: "Neurabox",
           company_url: "https://neurabox.io/",
           logo_path: "neurabox.jpg",
-          duration: "Feb 2018 - Present",
-          location: "Work From Home",
+          duration: "Feb 2018 - Aug 2021",
+          location: "Mendoza, Argentina",
           description:
             "CEO from a technology startup. Team leader and business strategy.",
           color: "#000",
@@ -408,8 +426,8 @@ const experience = {
           company: "FJU Universitarios",
           company_url: "https://fjuargentina.com/",
           logo_path: "fju.png",
-          duration: "May 2021 - Present",
-          location: "Work From Home",
+          duration: "May 2021 - Aug 2021",
+          location: "Work from Home",
           description:
             "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
           color: "#000",
@@ -434,7 +452,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create React frontend Projects, Python Scripts, and design UX/UI in Figma. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "Below are some of my UX/UI designs and my frontend projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -446,19 +464,82 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  // blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-  //   link: "https://twitter.com/Harikrushn9",
-  //   avatar_image_path: "blogs_image.svg",
-  // },
+  blogSection: {
+    title: "About me",
+    subtitle:
+      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
+    link: "https://twitter.com/Harikrushn9",
+    avatar_image_path: "blogs_image.svg",
+  },
 };
 
 const projects = {
   data: [
     {
       id: "0",
+      name: "Design UI App",
+      url:
+        "https://www.figma.com/file/1agYGvBJl4zxGjOywzfstP/Design-UI-iParking?node-id=0%3A1",
+      description: "Design UI App mobility/fintech.",
+      languages: [
+        {
+          name: "Figma",
+          iconifyClass: "logos-figma",
+        },
+        {
+          name: "Material UI",
+          iconifyClass: "logos:material-ui",
+        },
+        {
+          name: "Inkscape",
+          iconifyClass: "cib:inkscape",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Design UI Checkout",
+      url:
+        "https://www.figma.com/file/9Z2JmrkuyfqH1mEAiiD3rV/Design-UI-iBanking?node-id=0%3A1",
+      description: "Design UI checkout fintech.",
+      languages: [
+        {
+          name: "Figma",
+          iconifyClass: "logos-figma",
+        },
+        {
+          name: "Material UI",
+          iconifyClass: "logos:material-ui",
+        },
+        {
+          name: "Inkscape",
+          iconifyClass: "cib:inkscape",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Design UI mailing",
+      url:
+        "https://www.figma.com/file/J8U1vXTjm9deRYINCX5UHz/iParking-email-template?node-id=0%3A1",
+      description: "Design UI mailing to mobility app.",
+      languages: [
+        {
+          name: "Figma",
+          iconifyClass: "logos-figma",
+        },
+        {
+          name: "Material UI",
+          iconifyClass: "logos:material-ui",
+        },
+        {
+          name: "Inkscape",
+          iconifyClass: "cib:inkscape",
+        },
+      ],
+    },
+    {
+      id: "3",
       name: "Instotox",
       url: "https://github.com/montotox/instotox/",
       description: "Social network like instagram. Used semantic-ui for React.",
@@ -490,7 +571,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "4",
       name: "Landing page iBanking",
       url: "https://ibanking.netlify.app/",
       description: "A React business page.",
@@ -514,7 +595,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "5",
       name: "Landing page iParking",
       url: "https://iparking.com.ar/",
       description: "A simple business page.",
@@ -538,7 +619,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "6",
       name: "SDKs for fintech",
       url: "https://github.com/montotox/ibk-node",
       description:
@@ -559,7 +640,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "7",
       name: "E-commerce",
       url: "https://github.com/montotox/Proyecto-Final/",
       description:
@@ -596,7 +677,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "8",
       name: "Personal Portfolio",
       url: "https://github.com/montotox/portfolio",
       description: "Personal portfolio with ReactJS.",
@@ -620,69 +701,6 @@ const projects = {
         {
           name: "GraphQL",
           iconifyClass: "logos-graphql",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Design UI App",
-      url:
-        "https://www.figma.com/file/1agYGvBJl4zxGjOywzfstP/Design-UI-iParking?node-id=0%3A1",
-      description: "Design UI App mobility/fintech.",
-      languages: [
-        {
-          name: "Figma",
-          iconifyClass: "logos-figma",
-        },
-        {
-          name: "Material UI",
-          iconifyClass: "logos:material-ui",
-        },
-        {
-          name: "Inkscape",
-          iconifyClass: "cib:inkscape",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Design UI Checkout",
-      url:
-        "https://www.figma.com/file/9Z2JmrkuyfqH1mEAiiD3rV/Design-UI-iBanking?node-id=0%3A1",
-      description: "Design UI checkout fintech.",
-      languages: [
-        {
-          name: "Figma",
-          iconifyClass: "logos-figma",
-        },
-        {
-          name: "Material UI",
-          iconifyClass: "logos:material-ui",
-        },
-        {
-          name: "Inkscape",
-          iconifyClass: "cib:inkscape",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Design UI mailing",
-      url:
-        "https://www.figma.com/file/J8U1vXTjm9deRYINCX5UHz/iParking-email-template?node-id=0%3A1",
-      description: "Design UI mailing to mobility app.",
-      languages: [
-        {
-          name: "Figma",
-          iconifyClass: "logos-figma",
-        },
-        {
-          name: "Material UI",
-          iconifyClass: "logos:material-ui",
-        },
-        {
-          name: "Inkscape",
-          iconifyClass: "cib:inkscape",
         },
       ],
     },
