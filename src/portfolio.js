@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "UX/UI Designer, Frontend Developer & self-taught 🤓. Always learning 📚.",
   resumeLink:
-    "https://drive.google.com/file/d/1p0SJdcvUX35iQo-93-hNh-8MfK6DQT9P/view?usp=sharing",
+    "https://drive.google.com/file/d/1C4SfkWIWqbrk1-gr6e5vIZx8ipwcbknB/view?usp=sharing",
   resumeLink2:
     "https://drive.google.com/file/d/1L24Ch1_cXx8jtbw6DT62LXJS-gTK1hzg/view?usp=sharing",
   mail: "mailto:montotox@gmail.com",
@@ -30,6 +30,8 @@ const socialMediaLinks = {
   gmail: "montotox@gmail.com",
   facebook: "https://www.facebook.com/ricardo.jose.coronel/",
   instagram: "https://www.instagram.com/scarto_scarletto/",
+  dribbble: "https://dribbble.com/rcoronel",
+  behance: "https://www.behance.net/ricardocoronel6",
 };
 
 const skills = {
@@ -296,7 +298,7 @@ const degrees = {
       subtitle: "UX/UI Designer & UX Researcher",
       logo_path: "google.png",
       alt_name: "Google Academy - Coursera",
-      duration: "2020 - 2021",
+      duration: "2019 - 2020",
       descriptions: [
         "⚡ Developing personas, user stories, and user journey maps.",
         "⚡ Conducting usability studies.",
@@ -377,19 +379,30 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   description:
-    "I've mostly done projects on my own and I am actively looking for new challenges. I love organizing workshops or courses to share my knowledge with others.",
+    "I've been in the world of technology for 6 years, with 5 years as the founder of 2 startups and more than 4 years as a UX designer. I've mostly done projects on my own and I am actively looking for new challenges. I love organizing workshops or courses to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "UX/UI Designer",
+          title: "Director of UX",
           company: "iBanking",
           company_url: "https://ibanking.netlify.app",
           logo_path: "ibk.png",
           duration: "Jan 2020 - Aug 2021",
           location: "Work from Home",
+          description:
+            "Research and documents findings, creates consumer scenarios, and creates strategy documents and content to supply to the UX department personnel as well as collaborating product departments",
+          color: "#000",
+        },
+        {
+          title: "UX Designer",
+          company: "Neurabox",
+          company_url: "https://neurabox.io/",
+          logo_path: "neurabox.jpg",
+          duration: "Jul 2017 - Aug 2021",
+          location: "Mendoza, Argentina",
           description:
             "Considering the human-computer interaction (HCI) element of a design. UX/UI Designer for fintech PWA. Frontend ReactJS developer. Running user testing. Defining interaction models, user task flows, and UI specifications. Communicating scenarios, end-to-end experiences, interaction models, and screen designs to other people working on a product. Developing and maintaining design wireframes and specifications",
           color: "#000",
@@ -410,7 +423,7 @@ const experience = {
           company: "Neurabox",
           company_url: "https://neurabox.io/",
           logo_path: "neurabox.jpg",
-          duration: "Feb 2018 - Aug 2021",
+          duration: "Feb 2017 - Aug 2021",
           location: "Mendoza, Argentina",
           description:
             "CEO from a technology startup. Team leader and business strategy.",
@@ -477,6 +490,48 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "Design UX/UI Boarding Pass",
+      url:
+        "https://dribbble.com/shots/16504639-Evolution-Boarding-Pass?utm_source=Clipboard_Shot&utm_campaign=rcoronel&utm_content=Evolution%20Boarding%20Pass&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=rcoronel&utm_content=Evolution%20Boarding%20Pass&utm_medium=Social_Share",
+      description: "Design UX/UI Boarding Pass - Process to final mockup.",
+      languages: [
+        {
+          name: "Figma",
+          iconifyClass: "logos-figma",
+        },
+        {
+          name: "Material UI",
+          iconifyClass: "logos:material-ui",
+        },
+        {
+          name: "Inkscape",
+          iconifyClass: "cib:inkscape",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Redesign landing page",
+      url:
+        "https://www.figma.com/file/ko7dtp2FENzmO2m38Hg96b/AuraQuantic?node-id=0%3A1",
+      description: "Redesign landing page with Material Design for Desktop",
+      languages: [
+        {
+          name: "Figma",
+          iconifyClass: "logos-figma",
+        },
+        {
+          name: "Gimp",
+          iconifyClass: "cib:gimp",
+        },
+        {
+          name: "Inkscape",
+          iconifyClass: "cib:inkscape",
+        },
+      ],
+    },
+    {
+      id: "2",
       name: "Design UI App",
       url:
         "https://www.figma.com/file/1agYGvBJl4zxGjOywzfstP/Design-UI-iParking?node-id=0%3A1",
@@ -497,7 +552,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "3",
       name: "Design UI Checkout",
       url:
         "https://www.figma.com/file/9Z2JmrkuyfqH1mEAiiD3rV/Design-UI-iBanking?node-id=0%3A1",
@@ -518,7 +573,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "4",
       name: "Design UI mailing",
       url:
         "https://www.figma.com/file/J8U1vXTjm9deRYINCX5UHz/iParking-email-template?node-id=0%3A1",
@@ -539,7 +594,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "5",
       name: "Instotox",
       url: "https://github.com/montotox/instotox/",
       description: "Social network like instagram. Used semantic-ui for React.",
@@ -571,7 +626,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "6",
       name: "Landing page iBanking",
       url: "https://ibanking.netlify.app/",
       description: "A React business page.",
@@ -595,7 +650,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "7",
       name: "Landing page iParking",
       url: "https://iparking.com.ar/",
       description: "A simple business page.",
@@ -619,7 +674,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "8",
       name: "SDKs for fintech",
       url: "https://github.com/montotox/ibk-node",
       description:
@@ -640,7 +695,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "9",
       name: "E-commerce",
       url: "https://github.com/montotox/Proyecto-Final/",
       description:
@@ -677,7 +732,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "10",
       name: "Personal Portfolio",
       url: "https://github.com/montotox/portfolio",
       description: "Personal portfolio with ReactJS.",

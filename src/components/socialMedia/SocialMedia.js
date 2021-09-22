@@ -41,6 +41,24 @@ export default function socialMedia() {
         <i className="fab fa-instagram"></i>
         <span></span>
       </a>
+      <a
+        href={socialMediaLinks.behance}
+        className="icon-button linkedin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-behance"></i>
+        <span></span>
+      </a>
+      <a
+        href={socialMediaLinks.dribbble}
+        className="icon-button instagram"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-dribbble"></i>
+        <span></span>
+      </a>
     </div>
   );
 }
