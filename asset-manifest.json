@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ba8f92f9.chunk.css",
-    "main.js": "/static/js/main.713bd5d7.chunk.js",
-    "main.js.map": "/static/js/main.713bd5d7.chunk.js.map",
+    "main.js": "/static/js/main.886218ad.chunk.js",
+    "main.js.map": "/static/js/main.886218ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.00060668.js",
     "runtime-main.js.map": "/static/js/runtime-main.00060668.js.map",
-    "static/js/2.ea6fc591.chunk.js": "/static/js/2.ea6fc591.chunk.js",
-    "static/js/2.ea6fc591.chunk.js.map": "/static/js/2.ea6fc591.chunk.js.map",
+    "static/js/2.f4eb20bd.chunk.js": "/static/js/2.f4eb20bd.chunk.js",
+    "static/js/2.f4eb20bd.chunk.js.map": "/static/js/2.f4eb20bd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d303375e98ac0fea329327b7742ee80b.js": "/precache-manifest.d303375e98ac0fea329327b7742ee80b.js",
+    "precache-manifest.c94ecd8188e9830b4995a269158e2084.js": "/precache-manifest.c94ecd8188e9830b4995a269158e2084.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ba8f92f9.chunk.css.map": "/static/css/main.ba8f92f9.chunk.css.map",
-    "static/js/2.ea6fc591.chunk.js.LICENSE.txt": "/static/js/2.ea6fc591.chunk.js.LICENSE.txt",
+    "static/js/2.f4eb20bd.chunk.js.LICENSE.txt": "/static/js/2.f4eb20bd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
     "static/media/cdcuenta.jpg": "/static/media/cdcuenta.45f56f72.jpg",
@@ -31,8 +31,9 @@
     "static/media/localguide.gif": "/static/media/localguide.847873a8.gif",
     "static/media/localguide.png": "/static/media/localguide.b7f903d7.png",
     "static/media/mongo.png": "/static/media/mongo.d324ee17.png",
-    "static/media/montotox.jpg": "/static/media/montotox.85f7179f.jpg",
+    "static/media/montotox.jpg": "/static/media/montotox.1de1c89e.jpg",
     "static/media/montotox.png": "/static/media/montotox.a2d4db2e.png",
+    "static/media/montotox2.jpg": "/static/media/montotox2.85f7179f.jpg",
     "static/media/postman.jpg": "/static/media/postman.22f11067.jpg",
     "static/media/postman.png": "/static/media/postman.c108f557.png",
     "static/media/skillenza.png": "/static/media/skillenza.7b7a76ef.png",
@@ -42,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.00060668.js",
-    "static/js/2.ea6fc591.chunk.js",
+    "static/js/2.f4eb20bd.chunk.js",
     "static/css/main.ba8f92f9.chunk.css",
-    "static/js/main.713bd5d7.chunk.js"
+    "static/js/main.886218ad.chunk.js"
   ]
 }
