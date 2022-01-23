@@ -386,6 +386,27 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Frontend Developer ReactJS",
+          company: "Doctor-i",
+          company_url: "https://doctori.com",
+          logo_path: "dr-i.png",
+          duration: "Dec 2021 - Present",
+          location: "Work from Home",
+          description:
+            "ReactJS Developer in a litle team, but big responsabilities.",
+          color: "#000",
+        },
+        {
+          title: "ReactJS teacher",
+          company: "iBanking",
+          company_url: "https://socratech.es",
+          logo_path: "socra.png",
+          duration: "Dec 2021 - Present",
+          location: "Work from Home",
+          description: "Bootcamp ReactJS teacher",
+          color: "#000",
+        },
+        {
           title: "Director of UX",
           company: "iBanking",
           company_url: "https://ibanking.netlify.app",
