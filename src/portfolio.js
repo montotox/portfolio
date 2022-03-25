@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "UX/UI Designer, Frontend Developer & self-taught 🤓. Always learning 📚.",
   resumeLink:
-    "https://drive.google.com/file/d/1C4SfkWIWqbrk1-gr6e5vIZx8ipwcbknB/view?usp=sharing",
+    "https://drive.google.com/file/d/1_vC_b5leNqoecNYkljuX3BEeGVD__V25/view?usp=sharing",
   resumeLink2:
     "https://drive.google.com/file/d/1L24Ch1_cXx8jtbw6DT62LXJS-gTK1hzg/view?usp=sharing",
   mail: "mailto:montotox@gmail.com",
@@ -186,10 +186,10 @@ const skills = {
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#663399",
+            color: "#3178C6",
           },
         },
         {
@@ -207,10 +207,10 @@ const skills = {
           },
         },
         {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
           style: {
-            color: "#0865A6",
+            color: "#764ABC",
           },
         },
         {
@@ -386,24 +386,35 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Frontend Developer ReactJS",
-          company: "Doctor-i",
-          company_url: "https://doctori.com",
-          logo_path: "dr-i.png",
-          duration: "Dec 2021 - Present",
+          title: "Head Frontend Developer & UX/UI",
+          company: "Ciclogreen",
+          company_url: "https://ciclogreen.com",
+          logo_path: "ciclo.png",
+          duration: "Mar 2022 - Present",
           location: "Work from Home",
           description:
-            "ReactJS Developer in a litle team, but big responsabilities.",
+            "Head Frontend ReactJS & UX/UI in startup. Create new dashboard and tools.",
           color: "#000",
         },
         {
           title: "ReactJS teacher",
-          company: "iBanking",
+          company: "Socratech",
           company_url: "https://socratech.es",
           logo_path: "socra.png",
           duration: "Dec 2021 - Present",
           location: "Work from Home",
           description: "Bootcamp ReactJS teacher",
+          color: "#000",
+        },
+        {
+          title: "Frontend Developer ReactJS",
+          company: "Doctor-i",
+          company_url: "https://doctori.com",
+          logo_path: "dr-i.png",
+          duration: "Dec 2021 - Apr 2022",
+          location: "Work from Home",
+          description:
+            "ReactJS Developer in a litle team, but big responsabilities.",
           color: "#000",
         },
         {
@@ -421,7 +432,7 @@ const experience = {
           title: "UX Designer",
           company: "Neurabox",
           company_url: "https://neurabox.io/",
-          logo_path: "neurabox.jpg",
+          logo_path: "neura.png",
           duration: "Jul 2017 - Aug 2021",
           location: "Mendoza, Argentina",
           description:
@@ -443,7 +454,7 @@ const experience = {
           title: "CEO",
           company: "Neurabox",
           company_url: "https://neurabox.io/",
-          logo_path: "neurabox.jpg",
+          logo_path: "neura.png",
           duration: "Feb 2017 - Aug 2021",
           location: "Mendoza, Argentina",
           description:
@@ -496,7 +507,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "montotox.jpg",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. I will be happy to receive your comments",
   },
   blogSection: {
     title: "About me",
