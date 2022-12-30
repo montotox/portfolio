@@ -55,6 +55,7 @@ function Contact(props) {
                 className="general-btn"
                 href={greeting.resumeLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Download Resume
               </a>

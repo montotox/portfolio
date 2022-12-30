@@ -15,11 +15,11 @@ const greeting = {
   nickname: "montotox",
   full_name: "Ricardo Coronel",
   subTitle:
-    "UX/UI Designer, Frontend Developer & self-taught 🤓. Always learning 📚.",
+    "Frontend Developer, UX/UI Designer & self-taught 🤓. Always learning 📚.",
   resumeLink:
-    "https://drive.google.com/file/d/1_vC_b5leNqoecNYkljuX3BEeGVD__V25/view?usp=sharing",
+    "https://drive.google.com/file/d/1hxtyO8qFuq4Y67ZXSrV_PJKttHDixhRk/view?usp=sharing",
   resumeLink2:
-    "https://drive.google.com/file/d/1L24Ch1_cXx8jtbw6DT62LXJS-gTK1hzg/view?usp=sharing",
+    "https://drive.google.com/file/d/1hxtyO8qFuq4Y67ZXSrV_PJKttHDixhRk/view?usp=sharing",
   mail: "mailto:montotox@gmail.com",
 };
 
@@ -29,74 +29,13 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/ricardo-jose-coronel/",
   gmail: "montotox@gmail.com",
   facebook: "https://www.facebook.com/ricardo.jose.coronel/",
-  instagram: "https://www.instagram.com/scarto_scarletto/",
+  instagram: "https://www.instagram.com/montoto.x/",
   dribbble: "https://dribbble.com/rcoronel",
   behance: "https://www.behance.net/ricardocoronel6",
 };
 
 const skills = {
   data: [
-    {
-      title: "UX/UI Design & Researcher",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Create user stories, personas, storyboards, prototypes and wireframes",
-        "⚡ Problem-solving, design thinking",
-        "⚡ Creative and analytical approach",
-        "⚡ Business know-how: Understanding of business metrics and the ability to translate company goals and objectives into digital experiences",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#C4C4C4",
-          },
-        },
-        {
-          skillName: "Gimp",
-          fontAwesomeClassname: "simple-icons:gimp",
-          style: {
-            color: "#5C5543",
-          },
-        },
-        {
-          skillName: "Miro",
-          fontAwesomeClassname: "simple-icons:miro",
-          style: {
-            color: "#050038",
-          },
-        },
-        {
-          skillName: "Adobe Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#31A8FF",
-          },
-        },
-        {
-          skillName: "Google Analytics",
-          fontAwesomeClassname: "simple-icons:googleanalytics",
-          style: {
-            color: "#E37400",
-          },
-        },
-        {
-          skillName: "Hotjar",
-          fontAwesomeClassname: "simple-icons:hotjar",
-          style: {
-            color: "#FD3A5C",
-          },
-        },
-      ],
-    },
     {
       title: "Frontend Development",
       fileName: "FullStackImg",
@@ -218,6 +157,67 @@ const skills = {
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
+          },
+        },
+      ],
+    },
+    {
+      title: "UX/UI Design & Researcher",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Create user stories, personas, storyboards, prototypes and wireframes",
+        "⚡ Problem-solving, design thinking",
+        "⚡ Creative and analytical approach",
+        "⚡ Business know-how: Understanding of business metrics and the ability to translate company goals and objectives into digital experiences",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#C4C4C4",
+          },
+        },
+        {
+          skillName: "Gimp",
+          fontAwesomeClassname: "simple-icons:gimp",
+          style: {
+            color: "#5C5543",
+          },
+        },
+        {
+          skillName: "Miro",
+          fontAwesomeClassname: "simple-icons:miro",
+          style: {
+            color: "#050038",
+          },
+        },
+        {
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#31A8FF",
+          },
+        },
+        {
+          skillName: "Google Analytics",
+          fontAwesomeClassname: "simple-icons:googleanalytics",
+          style: {
+            color: "#E37400",
+          },
+        },
+        {
+          skillName: "Hotjar",
+          fontAwesomeClassname: "simple-icons:hotjar",
+          style: {
+            color: "#FD3A5C",
           },
         },
       ],
@@ -379,15 +379,26 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   description:
-    "I've been in the world of technology for 6 years, with 5 years as the founder of 2 startups and more than 4 years as a UX designer. I've mostly done projects on my own and I am actively looking for new challenges. I love organizing workshops or courses to share my knowledge with others.",
+    "I've been in the world of technology for 7 years, with 5 years as the founder of 2 startups and more than 5 years as a Frontend Developer. I've mostly done projects on my own and I am actively looking for new challenges. I love organizing workshops or courses to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
+          title: "Project Manager and Head Frontend",
+          company: "Chep - (Global)",
+          company_url: "https://chep.com",
+          logo_path: "chep.png",
+          duration: "May 2022 - Present",
+          location: "Work from Home",
+          description:
+            "Project Manager and Lead Frontend Team. Create new product with machine learning & AI.",
+          color: "#000",
+        },
+        {
           title: "Head Frontend Developer & UX/UI",
-          company: "Ciclogreen",
+          company: "Ciclogreen - (Spain)",
           company_url: "https://ciclogreen.com",
           logo_path: "ciclo.png",
           duration: "Mar 2022 - Present",
@@ -397,18 +408,29 @@ const experience = {
           color: "#000",
         },
         {
-          title: "ReactJS teacher",
-          company: "Socratech",
+          title: "Investor, Frontend Developer & UX/UI",
+          company: "Gobeltrip - (Spain)",
+          company_url: "https://gobeltrip.com",
+          logo_path: "gobel.png",
+          duration: "Jan 2022 - Present",
+          location: "Work from Home",
+          description:
+            "Investor, Frontend ReactJS & UX/UI in startup. Create main app, migrating from Angutar to ReactJS.",
+          color: "#000",
+        },
+        {
+          title: "ReactJS Teacher",
+          company: "Socratech - (Spain)",
           company_url: "https://socratech.es",
           logo_path: "socra.png",
-          duration: "Dec 2021 - Present",
+          duration: "Dec 2021 - Dec 2022",
           location: "Work from Home",
           description: "Bootcamp ReactJS teacher",
           color: "#000",
         },
         {
           title: "Frontend Developer ReactJS",
-          company: "Doctor-i",
+          company: "Doctor-i - (Spain)",
           company_url: "https://doctori.com",
           logo_path: "dr-i.png",
           duration: "Dec 2021 - Apr 2022",
@@ -419,7 +441,7 @@ const experience = {
         },
         {
           title: "Director of UX",
-          company: "iBanking",
+          company: "iBanking - (Argentina)",
           company_url: "https://ibanking.netlify.app",
           logo_path: "ibk.png",
           duration: "Jan 2020 - Aug 2021",
@@ -430,7 +452,7 @@ const experience = {
         },
         {
           title: "UX Designer",
-          company: "Neurabox",
+          company: "Neurabox - (Argentina)",
           company_url: "https://neurabox.io/",
           logo_path: "neura.png",
           duration: "Jul 2017 - Aug 2021",
@@ -441,18 +463,18 @@ const experience = {
         },
         {
           title: "Full Stack Developer",
-          company: "Freelancer",
+          company: "Freelancer - (Global)",
           company_url: "https://montotox.com/",
           logo_path: "montotox.png",
           duration: "Oct 2020 - Present",
           location: "Barcelona, Spain",
           description:
-            "Work as freelancer in fullstack projects. The primary stack: NodeJS, Express, ReactJS, GraphQL, MongoDB.",
+            "Work as freelancer in fullstack projects. The primary stack: NodeJS, Express, ReactJS, React Native, Typescript, Redux, GraphQL, MongoDB.",
           color: "#000",
         },
         {
           title: "CEO",
-          company: "Neurabox",
+          company: "Neurabox - (Argentina)",
           company_url: "https://neurabox.io/",
           logo_path: "neura.png",
           duration: "Feb 2017 - Aug 2021",
@@ -468,7 +490,7 @@ const experience = {
       experiences: [
         {
           title: "Teacher web-designer",
-          company: "FJU Universitarios",
+          company: "FJU Universitarios - (Argentina)",
           company_url: "https://fjuargentina.com/",
           logo_path: "fju.png",
           duration: "May 2021 - Aug 2021",
@@ -479,7 +501,7 @@ const experience = {
         },
         {
           title: "Mentor",
-          company: "Socialab",
+          company: "Socialab - (Global)",
           company_url: "https://socialabglobal.socialab.com/",
           logo_path: "cdcuenta.jpg",
           duration: "Apr 2020",
