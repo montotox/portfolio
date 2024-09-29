@@ -1,4 +1,10 @@
 /* Change this file to get your personal Porfolio */
+function calculateExperience(year) {
+  const date = new Date(`${year}-01-01`);
+  const now = new Date();
+  const dateCalculated = now.getFullYear() - date.getFullYear();
+  return dateCalculated;
+}
 
 // Website related settings
 const settings = {
@@ -15,9 +21,9 @@ const greeting = {
   nickname: "montotox",
   full_name: "Ricardo Coronel",
   subTitle:
-    "Frontend Developer, UX/UI Designer & self-taught 🤓. Always learning 📚.",
+    "Lead Engineer, Frontend Developer, UX/UI Designer & self-taught 🤓. Always learning 📚.",
   resumeLink:
-    "https://drive.google.com/file/d/1hxtyO8qFuq4Y67ZXSrV_PJKttHDixhRk/view?usp=sharing",
+    "https://drive.google.com/file/d/1JNVvEbTTAgGxUsCwyMq6xg5LRPkpL6P9/view?usp=sharing",
   resumeLink2:
     "https://drive.google.com/file/d/1hxtyO8qFuq4Y67ZXSrV_PJKttHDixhRk/view?usp=sharing",
   mail: "mailto:montotox@gmail.com",
@@ -37,41 +43,85 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Frontend Development",
-      fileName: "FullStackImg",
+      title: "Tech Leadership",
+      fileName: "CloudInfraImg",
       skills: [
-        "⚡ Building responsive website using ReactJS",
-        "⚡ Using Material-UI & SASS",
-        "⚡ Lover of GraphQL",
-        "⚡ Integration services such as Firebase/ AWS",
+        "⚡ Architecting and implementing scalable cloud solutions across multiple platforms",
+        "⚡ Leading technical teams in agile environments, fostering innovation and continuous improvement",
+        "⚡ Designing and overseeing robust CI/CD pipelines for efficient software delivery",
+        "⚡ Developing technical roadmaps aligned with business objectives and emerging technologies",
+        "⚡ Ensuring compliance with industry standards and regulations (GDPR, ISO 27001, etc.)",
+        "⚡ Facilitating effective communication between technical and non-technical stakeholders",
+        "⚡ Leveraging project management and collaboration tools to streamline workflows and enhance productivity",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Miro",
+          fontAwesomeClassname: "simple-icons:miro",
           style: {
-            color: "#E34F26",
+            color: "#050038",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Notion",
+          fontAwesomeClassname: "simple-icons:notion",
           style: {
-            color: "#1572B6",
+            color: "#000000",
           },
         },
         {
-          skillName: "SASS",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "Slack",
+          fontAwesomeClassname: "simple-icons:slack",
           style: {
-            color: "#CC6699",
+            color: "#4A154B",
           },
         },
         {
-          skillName: "Material-UI",
-          fontAwesomeClassname: "simple-icons:material-ui",
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#0081CB",
+            color: "#181717",
+          },
+        },
+      ],
+    },
+    {
+      title: "Frontend Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Architecting and building high-performance, responsive web applications using ReactJS and NextJS",
+        "⚡ Implementing server-side rendering and static site generation for optimal performance and SEO",
+        "⚡ Leveraging TypeScript for robust, type-safe code in large-scale applications",
+        "⚡ Utilizing state management solutions like Redux or Zustand for complex application states",
+        "⚡ Creating beautiful, responsive UIs with advanced CSS frameworks such as TailwindCSS, Shadcn, Chakra UI, and Material-UI",
+      ],
+      softwareSkills: [
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Qwik",
+          fontAwesomeClassname: "simple-icons:qwik",
+          style: {
+            color: "#AC7EF4",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#3178C6",
           },
         },
         {
@@ -83,15 +133,50 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
           style: {
-            color: "#61DAFB",
+            color: "#764ABC",
+          },
+        },
+        {
+          skillName: "Shadcn CSS",
+          fontAwesomeClassname: "simple-icons:shadcnui",
+          style: {
+            color: "#000",
+          },
+        },
+        {
+          skillName: "TailwindCSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            color: "#06B6D4",
+          },
+        },
+        {
+          skillName: "Chakra UI",
+          fontAwesomeClassname: "simple-icons:chakraui",
+          style: {
+            color: "#319795",
+          },
+        },
+        {
+          skillName: "Material-UI",
+          fontAwesomeClassname: "simple-icons:mui",
+          style: {
+            color: "#0081CB",
+          },
+        },
+        {
+          skillName: "SASS",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#CC6699",
           },
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
             color: "#339933",
           },
@@ -125,13 +210,6 @@ const skills = {
           },
         },
         {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#3178C6",
-          },
-        },
-        {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
           style: {
@@ -143,13 +221,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:apple",
           style: {
             color: "#C4C4C4",
-          },
-        },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "simple-icons:redux",
-          style: {
-            color: "#764ABC",
           },
         },
         {
@@ -222,72 +293,6 @@ const skills = {
         },
       ],
     },
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   fileName: "CloudInfraImg",
-    //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Experience hosting and managing websites",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "AWS",
-    //       fontAwesomeClassname: "simple-icons:amazonaws",
-    //       style: {
-    //         color: "#FF9900",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Netlify",
-    //       fontAwesomeClassname: "simple-icons:netlify",
-    //       style: {
-    //         color: "#38AFBB",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Heroku",
-    //       fontAwesomeClassname: "simple-icons:heroku",
-    //       style: {
-    //         color: "#6863A6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
-    //     {
-    //       skillName: "MongoDB",
-    //       fontAwesomeClassname: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Docker",
-    //       fontAwesomeClassname: "simple-icons:docker",
-    //       style: {
-    //         color: "#1488C6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Kubernetes",
-    //       fontAwesomeClassname: "simple-icons:kubernetes",
-    //       style: {
-    //         color: "#326CE5",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -378,19 +383,46 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
-  description:
-    "I've been in the world of technology for 7 years, with 5 years as the founder of 2 startups and more than 5 years as a Frontend Developer. I've mostly done projects on my own and I am actively looking for new challenges. I love organizing workshops or courses to share my knowledge with others.",
+  description: `With ${calculateExperience(
+    2015
+  )} years in the tech industry, I've evolved from a UX Designer to a Full Stack Developer, and now a CTO. My ${calculateExperience(
+    2017
+  )}+ years as a Frontend Developer specializing in ReactJS have been complemented by roles as a startup founder, project manager, and technical leader. For the past ${calculateExperience(
+    2022
+  )} years, I've been spearheading advanced tech projects as a CTO, integrating AI and overseeing development across various platforms. My expertise spans from UX/UI design to architecting complex solutions using NextJS, Python Django, and ensuring AWS security. I've led teams in developing native Android/iOS apps and creating innovative products with machine learning. As an investor and mentor, I've contributed to the growth of startups in diverse fields. My passion for knowledge sharing has led me to teach ReactJS and mentor in lean startup methodologies. Currently seeking new challenges to further push the boundaries of technology and innovation in sustainable and impactful projects.`,
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
+          title: "Chief Technology Officer",
+          company: "Ciclogreen - (Spain)",
+          company_url: "https://ciclogreen.com",
+          logo_path: "ciclo.png",
+          duration: "Mar 2022 - Present",
+          location: "Work from Home",
+          description:
+            "Spearheading advanced tech projects with AI integration. Architecting solutions using NextJS, Python Django, and ensuring AWS security. Overseeing native Android/iOS app development for sustainable urban mobility.",
+          color: "#000",
+        },
+        {
+          title: "Technical Project Leader",
+          company: "Chep - (Global)",
+          company_url: "https://chep.com",
+          logo_path: "chep.png",
+          duration: "Jul 2023 - Present",
+          location: "Work from Home",
+          description:
+            "Technical Project Leader. Create new product with machine learning & AI.",
+          color: "#000",
+        },
+        {
           title: "Project Manager and Head Frontend",
           company: "Chep - (Global)",
           company_url: "https://chep.com",
           logo_path: "chep.png",
-          duration: "May 2022 - Present",
+          duration: "Nov 2022 - Jul 2023",
           location: "Work from Home",
           description:
             "Project Manager and Lead Frontend Team. Create new product with machine learning & AI.",
@@ -401,7 +433,7 @@ const experience = {
           company: "Ciclogreen - (Spain)",
           company_url: "https://ciclogreen.com",
           logo_path: "ciclo.png",
-          duration: "Mar 2022 - Present",
+          duration: "Mar 2022 - Ene 2024",
           location: "Work from Home",
           description:
             "Head Frontend ReactJS & UX/UI in startup. Create new dashboard and tools.",
@@ -544,6 +576,27 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "Mindful Content",
+      url: "https://github.com/montotox/mindful-content-frontend",
+      description:
+        "Artificial intelligence to analyze movies and determine if they meet specific diversity and representation standards, such as the Bechdel Test.",
+      languages: [
+        {
+          name: "NextJS",
+          iconifyClass: "akar-icons:nextjs-fill",
+        },
+        {
+          name: "Artificial Intelligence",
+          iconifyClass: "hugeicons:artificial-intelligence-04",
+        },
+        {
+          name: "Shadcn CSS",
+          iconifyClass: "simple-icons:shadcnui",
+        },
+      ],
+    },
+    {
+      id: "1",
       name: "Design UX/UI Boarding Pass",
       url:
         "https://dribbble.com/shots/16504639-Evolution-Boarding-Pass?utm_source=Clipboard_Shot&utm_campaign=rcoronel&utm_content=Evolution%20Boarding%20Pass&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=rcoronel&utm_content=Evolution%20Boarding%20Pass&utm_medium=Social_Share",
@@ -564,7 +617,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "Redesign landing page",
       url:
         "https://www.figma.com/file/ko7dtp2FENzmO2m38Hg96b/AuraQuantic?node-id=0%3A1",
@@ -585,7 +638,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "3",
       name: "Design UI App",
       url:
         "https://www.figma.com/file/1agYGvBJl4zxGjOywzfstP/Design-UI-iParking?node-id=0%3A1",
@@ -606,7 +659,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "4",
       name: "Design UI Checkout",
       url:
         "https://www.figma.com/file/9Z2JmrkuyfqH1mEAiiD3rV/Design-UI-iBanking?node-id=0%3A1",
@@ -627,7 +680,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "5",
       name: "Design UI mailing",
       url:
         "https://www.figma.com/file/J8U1vXTjm9deRYINCX5UHz/iParking-email-template?node-id=0%3A1",
@@ -648,7 +701,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "6",
       name: "Instotox",
       url: "https://github.com/montotox/instotox/",
       description: "Social network like instagram. Used semantic-ui for React.",
@@ -680,7 +733,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "7",
       name: "Landing page iBanking",
       url: "https://ibanking.netlify.app/",
       description: "A React business page.",
@@ -704,7 +757,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "8",
       name: "Landing page iParking",
       url: "https://iparking.com.ar/",
       description: "A simple business page.",
@@ -728,7 +781,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "9",
       name: "SDKs for fintech",
       url: "https://github.com/montotox/ibk-node",
       description:
@@ -749,7 +802,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "10",
       name: "E-commerce",
       url: "https://github.com/montotox/Proyecto-Final/",
       description:
@@ -786,7 +839,7 @@ const projects = {
       ],
     },
     {
-      id: "10",
+      id: "11",
       name: "Personal Portfolio",
       url: "https://github.com/montotox/portfolio",
       description: "Personal portfolio with ReactJS.",
