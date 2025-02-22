@@ -400,7 +400,7 @@ const experience = {
           company: "Ciclogreen - (Spain)",
           company_url: "https://ciclogreen.com",
           logo_path: "ciclo.png",
-          duration: "Mar 2022 - Present",
+          duration: "Jan 2022 - Present",
           location: "Work from Home",
           description:
             "Spearheading advanced tech projects with AI integration. Architecting solutions using NextJS, Python Django, and ensuring AWS security. Overseeing native Android/iOS app development for sustainable urban mobility.",
@@ -433,7 +433,7 @@ const experience = {
           company: "Ciclogreen - (Spain)",
           company_url: "https://ciclogreen.com",
           logo_path: "ciclo.png",
-          duration: "Mar 2022 - Ene 2024",
+          duration: "Mar 2022 - Jan 2024",
           location: "Work from Home",
           description:
             "Head Frontend ReactJS & UX/UI in startup. Create new dashboard and tools.",
@@ -444,7 +444,7 @@ const experience = {
           company: "Gobeltrip - (Spain)",
           company_url: "https://gobeltrip.com",
           logo_path: "gobel.png",
-          duration: "Jan 2022 - Present",
+          duration: "Jan 2022 - Dec 2024",
           location: "Work from Home",
           description:
             "Investor, Frontend ReactJS & UX/UI in startup. Create main app, migrating from Angutar to ReactJS.",
@@ -520,6 +520,18 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
+        {
+          title: "Tech Mentor",
+          company: "HACK UDC - (Spain)",
+          company_url: "https://hackudc.gpul.org/",
+          logo_path: "hackudc.png",
+          duration: "Feb 2025",
+          location: "Universidad de A Coruña",
+          description:
+            "Mentored participants in ReactJS, NextJS, Python, SQL databases, Supabase, and AI, assisting with project planning, issue resolution, and development challenges.",
+          color: "#000",
+        },
+        ,
         {
           title: "Teacher web-designer",
           company: "FJU Universitarios - (Argentina)",
